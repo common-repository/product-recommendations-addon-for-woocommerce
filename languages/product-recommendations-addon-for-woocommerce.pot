@@ -1,0 +1,764 @@
+# Copyright (C) 2024 RexTheme
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Recommendations Addon for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/product-recommendations-addon-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-01T04:59:39+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: product-recommendations-addon-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+msgid "Product Recommendations Addon for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://rextheme.com/product-recommendations-for-woocommerce/"
+msgstr ""
+
+#. Description of the plugin
+msgid "An WooCommerce add-on that allows store owners to generate dynamic product recommendations based different criteria and shows it to the customers."
+msgstr ""
+
+#. Author of the plugin
+msgid "RexTheme"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://rextheme.com"
+msgstr ""
+
+#. translators: %s is the total price of the products.
+#: includes/Abstracts/ProductsEngine.php:126
+msgid "Total price: %s - Add all to cart"
+msgstr ""
+
+#: includes/Admin/Menu.php:32
+#: includes/Admin/Menu.php:33
+#: build/index.js:8722
+#: build/index.js:11537
+#: build/index.js:11543
+msgid "Product Recommendations"
+msgstr ""
+
+#: includes/PostTypes/RecommendationEnginePostType.php:19
+msgctxt "post type general name"
+msgid "Recommendation Engine"
+msgstr ""
+
+#: includes/REST/ProductsController.php:46
+msgid "Keywords to search product categories."
+msgstr ""
+
+#: includes/REST/ProductsController.php:67
+msgid "Keywords to search product tags."
+msgstr ""
+
+#: includes/REST/RecommendationController.php:46
+msgid "Engine id to update"
+msgstr ""
+
+#: includes/REST/RecommendationController.php:53
+msgid "Engine engine data to create/update with"
+msgstr ""
+
+#: includes/REST/RecommendationController.php:66
+msgid "Engine id to fetch"
+msgstr ""
+
+#: includes/REST/RecommendationController.php:81
+msgid "Engine id to delete"
+msgstr ""
+
+#: includes/REST/RecommendationController.php:102
+#: includes/REST/RecommendationController.php:110
+msgid "Item number to fetch per page"
+msgstr ""
+
+#: includes/REST/RecommendationController.php:152
+msgid "Alert"
+msgstr ""
+
+#: includes/REST/RecommendationController.php:153
+#: build/index.js:10657
+msgid "Please fill in all the required field(s)."
+msgstr ""
+
+#: includes/REST/RecommendationController.php:161
+#: includes/REST/RecommendationController.php:169
+msgid "Success"
+msgstr ""
+
+#: includes/REST/RecommendationController.php:162
+msgid "Your changes have been saved."
+msgstr ""
+
+#: includes/REST/RecommendationController.php:170
+msgid "Your new recommendation engine has been registered."
+msgstr ""
+
+#: build/index.js:7662
+msgid "Sorry ! No data found."
+msgstr ""
+
+#: build/index.js:7983
+msgid "Weekly"
+msgstr ""
+
+#: build/index.js:7984
+msgid "Monthly"
+msgstr ""
+
+#: build/index.js:7985
+msgid "Yearly"
+msgstr ""
+
+#: build/index.js:8140
+msgid "Alert!"
+msgstr ""
+
+#: build/index.js:8140
+msgid "Success!"
+msgstr ""
+
+#: build/index.js:8215
+msgid "Engine Status"
+msgstr ""
+
+#: build/index.js:8230
+msgid "Disable"
+msgstr ""
+
+#: build/index.js:8230
+msgid "Disabled"
+msgstr ""
+
+#: build/index.js:8243
+msgid "Enabled"
+msgstr ""
+
+#: build/index.js:8243
+msgid "Enable"
+msgstr ""
+
+#: build/index.js:8284
+#: build/index.js:8376
+msgid "Please enter 3 or more characters"
+msgstr ""
+
+#: build/index.js:8288
+msgid "Product Title"
+msgstr ""
+
+#: build/index.js:8292
+msgid "Product Description"
+msgstr ""
+
+#: build/index.js:8296
+msgid "Stock Status"
+msgstr ""
+
+#: build/index.js:8300
+msgid "Price"
+msgstr ""
+
+#: build/index.js:8304
+msgid "Regular Price"
+msgstr ""
+
+#: build/index.js:8308
+msgid "Sale Price"
+msgstr ""
+
+#: build/index.js:8312
+msgid "Average Ratings"
+msgstr ""
+
+#: build/index.js:8316
+msgid "Sale Start From"
+msgstr ""
+
+#: build/index.js:8320
+msgid "Sale Ends At"
+msgstr ""
+
+#: build/index.js:8324
+msgid "Total Review"
+msgstr ""
+
+#: build/index.js:8328
+msgid "Total Sales"
+msgstr ""
+
+#: build/index.js:8332
+msgid "Product Categories"
+msgstr ""
+
+#: build/index.js:8336
+msgid "Product Tags"
+msgstr ""
+
+#: build/index.js:8341
+msgid "Equal to"
+msgstr ""
+
+#: build/index.js:8342
+msgid "Not equal to"
+msgstr ""
+
+#: build/index.js:8343
+msgid "Contains"
+msgstr ""
+
+#: build/index.js:8344
+msgid "Does not contain"
+msgstr ""
+
+#: build/index.js:8345
+msgid "Greater than"
+msgstr ""
+
+#: build/index.js:8346
+msgid "Greater than or equal to"
+msgstr ""
+
+#: build/index.js:8347
+msgid "Less than"
+msgstr ""
+
+#: build/index.js:8348
+msgid "Less than or equal to"
+msgstr ""
+
+#: build/index.js:8357
+#: build/index.js:9698
+msgid "Loading..."
+msgstr ""
+
+#: build/index.js:8361
+msgid "No category found"
+msgstr ""
+
+#: build/index.js:8369
+msgid "No tag found"
+msgstr ""
+
+#: build/index.js:8393
+#: build/index.js:8406
+#: build/index.js:8421
+#: build/index.js:10471
+#: build/index.js:10475
+#: build/index.js:10955
+#: build/index.js:10978
+msgid "Please select"
+msgstr ""
+
+#: build/index.js:8424
+msgid "In stock"
+msgstr ""
+
+#: build/index.js:8427
+msgid "Out of stock"
+msgstr ""
+
+#: build/index.js:8430
+msgid "On backorder"
+msgstr ""
+
+#: build/index.js:8449
+msgid "Filter value"
+msgstr ""
+
+#: build/index.js:8457
+msgid "Delete row"
+msgstr ""
+
+#: build/index.js:8517
+msgid "No data available"
+msgstr ""
+
+#: build/index.js:8830
+msgid "Engines"
+msgstr ""
+
+#: build/index.js:8835
+#: build/index.js:10127
+msgid "Analytics"
+msgstr ""
+
+#: build/index.js:8840
+msgid "Setup Wizard"
+msgstr ""
+
+#: build/index.js:8998
+msgid "Close modal"
+msgstr ""
+
+#: build/index.js:9700
+msgid "Activate License"
+msgstr ""
+
+#: build/index.js:9700
+msgid "Deactivate License"
+msgstr ""
+
+#: build/index.js:10042
+#: build/index.js:10069
+msgid "All Engines"
+msgstr ""
+
+#: build/index.js:10124
+#: build/index.js:10732
+msgid "Back to list"
+msgstr ""
+
+#: build/index.js:10148
+msgid "Total Revenue"
+msgstr ""
+
+#: build/index.js:10153
+msgid "Number of Products Sold"
+msgstr ""
+
+#: build/index.js:10158
+msgid "Number of Orders Placed"
+msgstr ""
+
+#: build/index.js:10168
+msgid "Engine Performance"
+msgstr ""
+
+#: build/index.js:10174
+msgid "No Data Available"
+msgstr ""
+
+#: build/index.js:10230
+#: build/index.js:10921
+#: build/index.js:10929
+msgid "Engine Title"
+msgstr ""
+
+#: build/index.js:10234
+#: build/index.js:10942
+msgid "Engine Type"
+msgstr ""
+
+#: build/index.js:10238
+msgid "Visibility Location"
+msgstr ""
+
+#: build/index.js:10242
+msgid "Status"
+msgstr ""
+
+#: build/index.js:10246
+msgid "Actions"
+msgstr ""
+
+#: build/index.js:10275
+msgid "All Recommendation Engines"
+msgstr ""
+
+#: build/index.js:10277
+msgid " + Create New"
+msgstr ""
+
+#: build/index.js:10355
+msgid "Active"
+msgstr ""
+
+#: build/index.js:10355
+msgid "Inactive"
+msgstr ""
+
+#: build/index.js:10365
+msgid "Edit"
+msgstr ""
+
+#: build/index.js:10368
+msgid "Delete"
+msgstr ""
+
+#: build/index.js:10400
+msgid "No engine found!"
+msgstr ""
+
+#: build/index.js:10407
+msgid "Are you sure you want to delete this engine?"
+msgstr ""
+
+#: build/index.js:10408
+msgid "Yes, delete"
+msgstr ""
+
+#: build/index.js:10409
+#: build/index.js:11120
+msgid "No, cancel"
+msgstr ""
+
+#: build/index.js:10466
+msgid "Edit Recommendation Engine"
+msgstr ""
+
+#: build/index.js:10466
+msgid "Create Recommendation Engine"
+msgstr ""
+
+#: build/index.js:10467
+msgid "Register"
+msgstr ""
+
+#: build/index.js:10468
+msgid "Update"
+msgstr ""
+
+#: build/index.js:10510
+msgid "Frequently Bought Together"
+msgstr ""
+
+#: build/index.js:10514
+msgid "Out of Stock Product Alternatives"
+msgstr ""
+
+#: build/index.js:10518
+msgid "Top Rated Products"
+msgstr ""
+
+#: build/index.js:10522
+msgid "Best Selling Products"
+msgstr ""
+
+#: build/index.js:10526
+msgid "New Arrivals"
+msgstr ""
+
+#: build/index.js:10530
+msgid "On-sale Popular Products"
+msgstr ""
+
+#: build/index.js:10534
+msgid "Recently Viewed Products"
+msgstr ""
+
+#: build/index.js:10541
+msgid "After Single Product Summary"
+msgstr ""
+
+#: build/index.js:10545
+msgid "After Add-To-Cart Button"
+msgstr ""
+
+#: build/index.js:10549
+msgid "After Single Product"
+msgstr ""
+
+#: build/index.js:10555
+msgid "Before Products"
+msgstr ""
+
+#: build/index.js:10559
+msgid "After Products"
+msgstr ""
+
+#: build/index.js:10563
+msgid "No Products Found"
+msgstr ""
+
+#: build/index.js:10569
+msgid "Before Cart Table"
+msgstr ""
+
+#: build/index.js:10573
+msgid "After Cart Table"
+msgstr ""
+
+#: build/index.js:10577
+msgid "After Cart Totals"
+msgstr ""
+
+#: build/index.js:10581
+msgid "Cart Collaterals"
+msgstr ""
+
+#: build/index.js:10585
+msgid "Empty Cart"
+msgstr ""
+
+#: build/index.js:10591
+msgid "Before Checkout Form"
+msgstr ""
+
+#: build/index.js:10595
+msgid "After Place Order Button"
+msgstr ""
+
+#: build/index.js:10599
+msgid "After Checkout Form"
+msgstr ""
+
+#: build/index.js:10605
+msgid "Before Order Details"
+msgstr ""
+
+#: build/index.js:10609
+msgid "After Order Details"
+msgstr ""
+
+#: build/index.js:10613
+msgid "After Customer Details"
+msgstr ""
+
+#: build/index.js:10742
+msgid "Settings"
+msgstr ""
+
+#: build/index.js:10746
+msgid "Configurations"
+msgstr ""
+
+#: build/index.js:10874
+msgid "Processing..."
+msgstr ""
+
+#: build/index.js:10924
+msgid "Assign a title to the recommended products section when displayed to customers."
+msgstr ""
+
+#: build/index.js:10945
+msgid "Choose the type of products you want to recommend using this engine."
+msgstr ""
+
+#: build/index.js:10965
+msgid "Placement/Visibility Location"
+msgstr ""
+
+#: build/index.js:10968
+msgid "Choose where you want to display the recommended products in your store."
+msgstr ""
+
+#: build/index.js:10995
+msgid "Advanced Product Filter Options"
+msgstr ""
+
+#: build/index.js:10996
+msgid "Set conditions to control what products to display as recommendations. By default the products displayed will be random based on the engine type. With filters, you will be able to specify conditions which will help to display more appropriate product recommendations."
+msgstr ""
+
+#: build/index.js:11003
+msgid "Filter Products"
+msgstr ""
+
+#: build/index.js:11004
+msgid "Set conditions to control what products to display as recommendatons. In case you set multiple conditions, it will mean that a product has to meet all the conditions to be eligible for recommendation."
+msgstr ""
+
+#: build/index.js:11013
+msgid "If"
+msgstr ""
+
+#: build/index.js:11019
+msgid "Condition"
+msgstr ""
+
+#: build/index.js:11025
+msgid "Value"
+msgstr ""
+
+#: build/index.js:11039
+msgid "New row"
+msgstr ""
+
+#: build/index.js:11055
+msgid "Product Rows"
+msgstr ""
+
+#: build/index.js:11058
+msgid "Assign a value for how many rows you want in your product recommendations block."
+msgstr ""
+
+#: build/index.js:11064
+msgid "Product rows"
+msgstr ""
+
+#: build/index.js:11076
+msgid "Product Columns"
+msgstr ""
+
+#: build/index.js:11079
+msgid "Assign a value for how many columns you want in your product recommendations block."
+msgstr ""
+
+#: build/index.js:11085
+msgid "Product columns"
+msgstr ""
+
+#: build/index.js:11097
+msgid "Custom Class"
+msgstr ""
+
+#: build/index.js:11098
+msgid "Assign space separated custom classes for you recommendations product block."
+msgstr ""
+
+#: build/index.js:11104
+msgid "Product block custom class"
+msgstr ""
+
+#: build/index.js:11118
+msgid "You have some unsaved changes. Do you want to leave without saving?"
+msgstr ""
+
+#: build/index.js:11119
+msgid "Yes, leave"
+msgstr ""
+
+#: build/index.js:11535
+msgid "Welcome"
+msgstr ""
+
+#: build/index.js:11536
+msgid "Hello, welcome to "
+msgstr ""
+
+#: build/index.js:11538
+msgid "Upsell and cross-sell smoothly, and keep your customers hooked with personalized product suggestions to increase the order values."
+msgstr ""
+
+#: build/index.js:11540
+#: build/index.js:11556
+#: build/index.js:11566
+#: build/index.js:11577
+msgid "Let’s create your recommendations"
+msgstr ""
+
+#: build/index.js:11540
+msgid "Check the guide"
+msgstr ""
+
+#: build/index.js:11544
+msgid "Features"
+msgstr ""
+
+#: build/index.js:11545
+msgid "Create intelligent upsells and cross-sells with rule-based recommendations, strategically place them across your store, and optimize their impact using in-depth analytics."
+msgstr ""
+
+#: build/index.js:11546
+msgid "Check All Features"
+msgstr ""
+
+#: build/index.js:11547
+msgid "Suggest Purchased Together"
+msgstr ""
+
+#: build/index.js:11547
+msgid "Suggest Products Commonly Purchased Together."
+msgstr ""
+
+#: build/index.js:11548
+msgid "Out-of-Stock Backup Options"
+msgstr ""
+
+#: build/index.js:11548
+msgid "Never miss a sale due to stock issues. Always have a plan B for out-of-stock items."
+msgstr ""
+
+#: build/index.js:11549
+msgid "Showcase Top Rated Products"
+msgstr ""
+
+#: build/index.js:11549
+msgid "Leverage customer feedback by prominently suggesting your highest-rated products."
+msgstr ""
+
+#: build/index.js:11550
+msgid "Best Sellers Product"
+msgstr ""
+
+#: build/index.js:11550
+msgid "Highlight your best sellers right on product pages."
+msgstr ""
+
+#: build/index.js:11551
+msgid "New Arrival Alerts"
+msgstr ""
+
+#: build/index.js:11551
+msgid "Strategically showcase recent additions across relevant category pages."
+msgstr ""
+
+#: build/index.js:11552
+msgid "On Sale Popular Product"
+msgstr ""
+
+#: build/index.js:11552
+msgid "Cash in on shoppers' appetites for deals by spotlighting current discounts."
+msgstr ""
+
+#: build/index.js:11554
+msgid "Purchase Now"
+msgstr ""
+
+#: build/index.js:11556
+#: build/index.js:11566
+msgid "Next"
+msgstr ""
+
+#: build/index.js:11559
+msgid "Required Plugins"
+msgstr ""
+
+#: build/index.js:11560
+msgid "Necessary"
+msgstr ""
+
+#: build/index.js:11560
+msgid "Activate Your"
+msgstr ""
+
+#: build/index.js:11561
+msgid "Plugins"
+msgstr ""
+
+#: build/index.js:11563
+msgid "Required for Product recommendations"
+msgstr ""
+
+#: build/index.js:11564
+msgid "Installed"
+msgstr ""
+
+#: build/index.js:11567
+msgid "Required"
+msgstr ""
+
+#: build/index.js:11570
+#: build/index.js:11572
+msgid "Done"
+msgstr ""
+
+#: build/index.js:11571
+msgid "You Are"
+msgstr ""
+
+#: build/index.js:11573
+msgid "Testimonials"
+msgstr ""
+
+#: build/index.js:11574
+msgid "Working fine & nice support."
+msgstr ""
+
+#: build/index.js:11574
+msgid "Good plugin, good service."
+msgstr ""
+
+#: build/index.js:11576
+msgid "Opt-in to receive tips, discounts, and recommendations from the RexTheme team directly in your inbox."
+msgstr ""

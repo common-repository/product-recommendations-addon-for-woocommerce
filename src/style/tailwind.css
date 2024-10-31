@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.setup-wizard__logo {
+		margin: 0 auto;
+		padding: 46px 0px 26px 0px;
+	}
+	.setup-wizard__shadow {
+		box-shadow: 0px 9px 14px 0px rgba(176, 189, 212, 0.5) !important;
+	}
+	.setup-wizard__input-shadow {
+		box-shadow: 0px 1px 1px 0px rgba(8, 30, 67, 0.12) !important;
+	}
+	.setup-wizard__circle {
+		background: transparent;
+		border-radius: 50%;
+		width: 34px;
+		height: 34px;
+		border: 1.5px solid #216def;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}

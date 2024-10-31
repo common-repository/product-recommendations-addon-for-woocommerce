@@ -1,0 +1,41 @@
+{
+    "name": "rextheme/plugin_name",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "RexTheme",
+            "email": "support@rextheme.com"
+        }
+    ],
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "roots/wordpress-core-installer": true
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "RexTheme\\RexProductRecommendationsForWoocommerce\\": "includes/"
+        }
+    },
+    "extra": {
+        "wordpress-install-dir": "wordpress"
+    },
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+        "phpcompatibility/phpcompatibility-wp": "^2.1",
+        "phpunit/phpunit": "^9.6",
+        "roots/wordpress-core-installer": "^1.100",
+        "roots/wordpress-full": "^6.3",
+        "wp-coding-standards/wpcs": "^3.1",
+        "wp-phpunit/wp-phpunit": "^6.3",
+        "yoast/phpunit-polyfills": "^2.0"
+    },
+	"scripts": {
+		"phpcs": "php -d memory_limit=1024M ./vendor/bin/phpcs",
+		"phpcs:report": "./vendor/bin/phpcs --report=csv > output.csv",
+		"phpcs:fix": "php -d memory_limit=1024M  ./vendor/bin/phpcbf"
+	}
+}

@@ -1,0 +1,42 @@
+div.rex-product-recommendation-add-all-btn a.button {
+	padding-top: 0.8rem;
+	padding-bottom: 0.8rem;
+}
+
+section#rex-product-recommendations-products-block {
+	clear: both;
+}
+
+.theme-twentytwentyone #rex-product-recommendations-products-block h2 {
+	margin-bottom: 2rem;
+}
+
+.single-product.theme-go #rex-product-recommendations-products-block,
+.single-product.theme-oceanwp #rex-product-recommendations-products-block {
+	position: relative;
+	top: 4rem;
+}
+
+.archive.theme-blocksy #rex-product-recommendations-products-block {
+	margin-bottom: 2rem;
+}
+
+.single-product.theme-Divi #rex-product-recommendations-products-block,
+.archive.theme-Divi #rex-product-recommendations-products-block {
+	margin-top: 2rem;
+}
+
+.archive.theme-yith-wonder #rex-product-recommendations-products-block,
+.archive.theme-yith-wonder #rex-product-recommendations-products-block ul,
+.single.theme-yith-wonder #rex-product-recommendations-products-block ul {
+	padding-left: unset;
+	padding-right: unset;
+}
+
+.single-product.theme-blocksy #rex-product-recommendations-products-block {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2rem;
+	width: var(--theme-container-width);
+	max-width: var(--theme-block-max-width);
+}
